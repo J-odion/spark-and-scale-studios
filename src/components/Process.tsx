@@ -50,13 +50,13 @@ const Process = () => {
   }, []);
 
   const steps = [
-    { icon: Video, title: "Meet", subtitle: "Virtual Call", description: "Discuss your vision" },
-    { icon: Ear, title: "Listen", subtitle: "Understand", description: "Gather resources & requirements" },
-    { icon: Hammer, title: "Build", subtitle: "Implement", description: "Transform ideas to reality" },
-    { icon: Search, title: "Review", subtitle: "Quality Check", description: "Test & refine" },
-    { icon: Rocket, title: "Deploy", subtitle: "Launch", description: "Push live" },
-    { icon: RefreshCw, title: "Update", subtitle: "Iterate", description: "Continuous improvements" },
-    { icon: Headphones, title: "Support", subtitle: "Partnership", description: "Lifetime support or handshake" },
+    { icon: Video, title: "Meet", subtitle: "Calls", description: "Virtual calls to discuss your vision" },
+    { icon: Ear, title: "Listen", subtitle: "Understand", description: "Conversation and documents to grasp your project concepts" },
+    { icon: Hammer, title: "Build", subtitle: "Implement", description: "Transform concepts into working solutions" },
+    { icon: Search, title: "Review", subtitle: "Quality Check", description: "Internal review and quality assurance" },
+    { icon: Rocket, title: "Deploy", subtitle: "Launch", description: "Push your project live" },
+    { icon: RefreshCw, title: "Update", subtitle: "Iterate", description: "Continuous improvements and updates" },
+    { icon: Headphones, title: "Support", subtitle: "Life Support", description: "Lifetime support and partnership" },
   ];
 
   return (

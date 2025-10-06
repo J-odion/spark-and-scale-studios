@@ -39,6 +39,7 @@ const Projects = () => {
       title: "E-Commerce Platform",
       description: "Full-stack e-commerce solution with custom CRM integration",
       gradient: "from-primary to-primary-glow",
+      image: "https://images.unsplash.com/photo-1557821552-17105176677c?w=800&h=600&fit=crop",
     },
     {
       icon: BarChart3,
@@ -46,6 +47,7 @@ const Projects = () => {
       title: "SaaS Dashboard",
       description: "Modern analytics dashboard with real-time data visualization",
       gradient: "from-accent to-accent-glow",
+      image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop",
     },
     {
       icon: Smartphone,
@@ -53,6 +55,7 @@ const Projects = () => {
       title: "Mobile Banking App",
       description: "Secure and intuitive banking experience for iOS and Android",
       gradient: "from-primary-glow to-accent",
+      image: "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=800&h=600&fit=crop",
     },
     {
       icon: Activity,
@@ -60,6 +63,7 @@ const Projects = () => {
       title: "Healthcare Portal",
       description: "Patient management system with telemedicine capabilities",
       gradient: "from-accent-glow to-primary",
+      image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&h=600&fit=crop",
     },
     {
       icon: MessageCircle,
@@ -67,6 +71,7 @@ const Projects = () => {
       title: "Social Media Platform",
       description: "Community-driven platform with real-time messaging",
       gradient: "from-primary to-accent",
+      image: "https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=800&h=600&fit=crop",
     },
     {
       icon: Sparkles,
@@ -74,6 +79,7 @@ const Projects = () => {
       title: "AI Content Generator",
       description: "Smart content creation tool powered by artificial intelligence",
       gradient: "from-accent to-primary-glow",
+      image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=600&fit=crop",
     },
   ];
 
@@ -98,19 +104,29 @@ const Projects = () => {
                   key={index}
                   className="embla__slide flex-[0_0_90%] md:flex-[0_0_45%] lg:flex-[0_0_30%] min-w-0"
                 >
-                  <Card className="glass-card p-6 h-full hover:scale-105 transition-all duration-300 glow-primary group cursor-pointer border-0">
-                    <div
-                      className={`w-12 h-12 rounded-lg bg-gradient-to-br ${project.gradient} flex items-center justify-center mb-4 group-hover:scale-110 transition-transform`}
-                    >
-                      <Icon className="w-6 h-6 text-white" />
+                  <Card className="glass-card p-0 h-full hover:scale-105 transition-all duration-300 glow-primary group cursor-pointer border-0 overflow-hidden">
+                    <div className="relative h-48 overflow-hidden">
+                      <img 
+                        src={project.image} 
+                        alt={project.title}
+                        className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                      />
+                      <div className="absolute inset-0 bg-gradient-to-t from-background via-background/50 to-transparent" />
+                      <div
+                        className={`absolute top-4 left-4 w-12 h-12 rounded-lg bg-gradient-to-br ${project.gradient} flex items-center justify-center`}
+                      >
+                        <Icon className="w-6 h-6 text-white" />
+                      </div>
                     </div>
-                    <div className="text-sm text-accent font-medium mb-2">
-                      {project.category}
+                    <div className="p-6">
+                      <div className="text-sm text-accent font-medium mb-2">
+                        {project.category}
+                      </div>
+                      <h3 className="text-xl font-bold mb-2">{project.title}</h3>
+                      <p className="text-sm text-muted-foreground">
+                        {project.description}
+                      </p>
                     </div>
-                    <h3 className="text-xl font-bold mb-2">{project.title}</h3>
-                    <p className="text-sm text-muted-foreground">
-                      {project.description}
-                    </p>
                   </Card>
                 </div>
               );

@@ -85,7 +85,7 @@ const Hero = () => {
             <span className="text-sm font-medium">Fast. Value-Driven. Trusted Globally.</span>
           </div>
 
-          <h1 className="hero-title text-6xl md:text-8xl font-bold mb-6 leading-tight">
+          <h1 className="hero-title text-6xl md:text-[10rem] font-black mb-6 leading-tight tracking-tight">
             Build. Scale. <span className="text-gradient">Thrive</span>
           </h1>
 
@@ -97,7 +97,7 @@ const Hero = () => {
             with 24/7 support and maximum ROI.
           </p>
 
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <div className="flex flex-col gap-4 items-center justify-center">
             <Button
               size="lg"
               className="hero-button bg-gradient-primary border-0 text-lg px-8 py-6 glow-primary hover:opacity-90 transition-opacity group"
