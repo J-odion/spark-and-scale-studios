@@ -22,7 +22,7 @@ const projects: Project[] = [
     category: "Publishing & Client Management",
     description: "Publication agency managing client onboarding flow for writers and editors.",
     fullDescription: "A full-service publication agency platform that manages client management and onboarding flow. Eyelight Publishers serves as Writer, Ghostwriter, Editor, and Publishing Coach — helping leaders and experts turn what they know into books that build their legacy. The platform has facilitated over 335 books and content projects for clients around the world.",
-    image: "tool-results://fetched-websites/www.eyelightpublishers.com.png",
+    image: "/projects/eyelight.png",
     gradient: "from-primary to-primary-glow",
   },
   {
