@@ -94,7 +94,7 @@ const projects: Project[] = [
     category: "Water Production & CRM",
     description: "Water production company with internal CRM and web processing.",
     fullDescription: "Advanced Water Solutions for a Sustainable Future. Avia Lois is a water production company platform featuring a customer-facing website and internal CRM for web processing. The platform showcases water purification, treatment, and hydration technologies ensuring clean, safe water for communities and industries worldwide — with a 99.9% purity rate and 10M+ liters purified daily.",
-    image: "tool-results://fetched-websites/avia-hydrate.vercel.app.png",
+    image: "/projects/avia-lois.png",
     gradient: "from-accent-glow to-primary-glow",
   },
   {
