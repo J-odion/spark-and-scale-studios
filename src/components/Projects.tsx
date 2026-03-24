@@ -46,7 +46,7 @@ const projects: Project[] = [
     category: "Supply Chain Solutions",
     description: "Premier logistics connecting West Africa with swift, secure services.",
     fullDescription: "A premier logistics and supply chain solutions platform connecting West Africa with swift, secure, and seamless logistics services. Falclin provides comprehensive supply chain management, freight forwarding, and distribution services for businesses across the region.",
-    image: "tool-results://fetched-websites/www.falclin.com.png",
+    image: "/projects/falclin.png",
     gradient: "from-accent-glow to-primary",
   },
   {
