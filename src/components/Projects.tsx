@@ -118,7 +118,7 @@ const projects: Project[] = [
     category: "Observability Cost Optimization",
     description: "ML-driven optimization for Datadog, CloudWatch, and New Relic.",
     fullDescription: "An Observability Cost Optimization Platform that maximizes observability efficiency. MetricsZero cuts costs across Datadog, CloudWatch, and New Relic — with zero code changes. Features advanced ML-driven optimization for modern observability stacks, trusted by teams who care about efficiency.",
-    image: "tool-results://fetched-websites/metric-zero.vercel.app.png",
+    image: "/projects/metricszero.png",
     gradient: "from-primary-glow to-accent",
   },
   {
