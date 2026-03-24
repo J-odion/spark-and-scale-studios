@@ -54,7 +54,7 @@ const projects: Project[] = [
     category: "E-Commerce & Solar Solutions",
     description: "Eco-friendly solar water heaters and premium shower systems.",
     fullDescription: "An innovative e-commerce platform for Beulah Technologies & Innovatives LTD, specializing in solar water heaters and premium shower systems. The platform combines luxury functionality with eco-friendly sustainability, offering customers innovative interior decor solutions for a greener tomorrow. Features a full product catalog, shopping experience, and brand storytelling.",
-    image: "tool-results://fetched-websites/www.beulahtechnologies.com.ng.png",
+    image: "/projects/beulah.png",
     gradient: "from-primary to-accent",
   },
   {
