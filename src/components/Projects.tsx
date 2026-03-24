@@ -62,7 +62,7 @@ const projects: Project[] = [
     category: "FinTech Platform",
     description: "Microfinance banking software — secure, reliable, made for Nigeria.",
     fullDescription: "The easiest way to build financial products. Next provides everything a Microfinance bank needs to succeed — powerful software that's secure, reliable, and made for Nigeria. Partners include Microbiz, Viscount, CreditGo, CRC Credit Bureau, Mono, Verve, Termii, Dojah, EasyPay, and ProvidusBank.",
-    image: "tool-results://fetched-websites/next-lemon-three.vercel.app.png",
+    image: "/projects/next-banking.png",
     gradient: "from-accent to-primary-glow",
   },
   {
