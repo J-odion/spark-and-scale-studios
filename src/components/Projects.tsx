@@ -86,7 +86,7 @@ const projects: Project[] = [
     category: "Hotel Management System",
     description: "Hotel lodges and comprehensive hotel management system.",
     fullDescription: "A comprehensive hotel lodges and hotel management system. The platform provides multi-property management, room booking engines, guest check-in/check-out flows, billing, housekeeping coordination, and administrative dashboards for hotel operators.",
-    image: "tool-results://fetched-websites/hotel-systems.vercel.app.png",
+    image: "/projects/hotel-systems.png",
     gradient: "from-primary to-primary-glow",
   },
   {
