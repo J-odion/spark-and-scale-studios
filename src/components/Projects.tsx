@@ -150,7 +150,7 @@ const projects: Project[] = [
     category: "NGO / Non-Profit",
     description: "Empowering less privileged children through education and mentorship.",
     fullDescription: "Your Light Foundation — Illuminating Futures, Transforming Lives. Dedicated to creating pathways to success for less privileged children through education, healthcare, and mentorship. The platform has supported 5K+ children across Nigeria, enabling donations, program management, and community engagement.",
-    image: "tool-results://fetched-websites/yourlightfoundation.vercel.app.png",
+    image: "/projects/yourlight.png",
     gradient: "from-primary-glow to-accent-glow",
   },
   {
