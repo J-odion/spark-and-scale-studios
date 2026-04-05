@@ -161,6 +161,14 @@ const projects: Project[] = [
     image: "/projects/pointprime.png",
     gradient: "from-accent to-primary",
   },
+  {
+    title: "DA Fashion Atelier",
+    category: "Fashion & Bespoke Couture",
+    description: "Bespoke fashion house crafting haute couture pieces from Abuja, Nigeria.",
+    fullDescription: "DA Fashion Atelier is more than a fashion house — it is a sanctuary where fabric becomes art and every silhouette is a statement. Based in Abuja, Nigeria, they blend contemporary aesthetics with time-honoured tailoring techniques to create pieces that are unmistakably yours. Services include bespoke couture, bridal & occasion wear, fabric consultation, and style direction. The platform features a full collection gallery, WhatsApp consultation booking, and brand storytelling — with a vision to be a globally recognised atelier known for impeccable craftsmanship and creative audacity.",
+    image: "/projects/dafashion.png",
+    gradient: "from-primary-glow to-accent",
+  },
 ];
 
 const Projects = () => {
