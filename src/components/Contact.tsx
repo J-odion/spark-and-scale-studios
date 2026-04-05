@@ -45,8 +45,8 @@ const Contact = () => {
     {
       icon: MessageCircle,
       label: "WhatsApp",
-      value: "+234 913 383 8340",
-      href: "https://wa.me/2349133838340",
+      value: "+234 807 453 8555",
+      href: "https://wa.me/2348074538555",
     },
     {
       icon: Instagram,

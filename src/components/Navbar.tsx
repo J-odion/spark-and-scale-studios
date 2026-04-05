@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
 import gsap from "gsap";
+import sptechLogo from "@/assets/sptech-logo.png";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -38,8 +39,8 @@ const Navbar = () => {
     >
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between">
-          <a href="#" className="nav-item text-2xl font-bold text-gradient">
-            SPTech Studios
+          <a href="#" className="nav-item flex items-center gap-2">
+            <img src={sptechLogo} alt="SPTech Studios" className="h-10 w-auto" />
           </a>
 
           {/* Desktop Menu */}
